@@ -1,0 +1,22 @@
+/*Luis Zavala Actividad 2*/
+
+/*librerias a utilizar*/
+#include <iostream>
+
+int main()
+{
+    float v1,v2,suma,resta,mult,divd; /*declaracion de variables (tipo flotante - para que puedan ingresar decimales*/
+    std::cout<<"Escribe un primer numero: "; /*imprime un mensaje de solicitar un primer digito*/
+    std::cin>>v1; /*lee y guarda ese primer digito en una variable*/
+    std::cout<<"Escribe un segundo numero: "; /*imprime un mensaje de solicitar un segundo digito*/
+    std::cin>>v2; /*lee y guarda ese primer digito en una variable*/
+    suma=v1+v2; /*suma ambos digitos (primero mas segundo)* y lo guarda en variable/
+    resta=v1-v2; /*resta ambos digitos (primero menos segundo) y lo guarda en variable*/
+    mult=v1*v2; /*multiplica ambos digitos (primero por segundo) y lo guarda en variable*/
+    divd=v1/v2; /*divide ambos digitos (primero entre segundo) y lo guarda en variable*/
+    std::cout<<"La suma de los dos valores es: " <<suma<<std::endl; /*imprime mensaje y variable de suma*/
+    std::cout<<"La resta de los valores es: " <<resta<<std::endl; /*imprime mensaje y variable de resta*/
+    std::cout<<"La multiplicacion de los valores es: " <<mult<<std::endl; /*imprime mensaje y variable de multiplicacion*/
+    std::cout<<"La divicion de los valores es: " <<divd <<std::endl; /*imprime mensaje y variable de divicion*/
+    return 0;
+}
