@@ -17,6 +17,6 @@ int main()
     std::cout<<"La suma de los dos valores es: " <<suma<<std::endl; /*imprime mensaje y variable de suma*/
     std::cout<<"La resta de los valores es: " <<resta<<std::endl; /*imprime mensaje y variable de resta*/
     std::cout<<"La multiplicacion de los valores es: " <<mult<<std::endl; /*imprime mensaje y variable de multiplicacion*/
-    std::cout<<"La divicion de los valores es: " <<divd <<std::endl; /*imprime mensaje y variable de divicion*/
+    std::cout<<"La division de los valores es: " <<divd <<std::endl; /*imprime mensaje y variable de divicion*/
     return 0;
 }
