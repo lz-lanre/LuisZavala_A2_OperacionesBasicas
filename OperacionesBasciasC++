@@ -10,7 +10,7 @@ int main()
     std::cin>>v1; /*lee y guarda ese primer digito en una variable*/
     std::cout<<"Escribe un segundo numero: "; /*imprime un mensaje de solicitar un segundo digito*/
     std::cin>>v2; /*lee y guarda ese primer digito en una variable*/
-    suma=v1+v2; /*suma ambos digitos (primero mas segundo)* y lo guarda en variable/
+    suma=v1+v2; /*suma ambos digitos (primero mas segundo)* y lo guarda en variable*/
     resta=v1-v2; /*resta ambos digitos (primero menos segundo) y lo guarda en variable*/
     mult=v1*v2; /*multiplica ambos digitos (primero por segundo) y lo guarda en variable*/
     divd=v1/v2; /*divide ambos digitos (primero entre segundo) y lo guarda en variable*/
